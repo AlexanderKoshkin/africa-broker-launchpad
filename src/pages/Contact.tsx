@@ -70,19 +70,6 @@ export default function Contact() {
               </div>
             </div>
 
-            <div>
-              <h2 className="text-xl font-semibold mb-4">Nairobi Office Location</h2>
-              <div className="rounded-lg border p-6 bg-muted/50">
-                <p className="text-muted-foreground">
-                  <strong>Africa Growth Advisors</strong><br />
-                  Nairobi Central Business District<br />
-                  Nairobi, Kenya
-                </p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  We serve clients across Kenya and internationally, with our local presence ensuring deep market knowledge and regulatory expertise.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
 

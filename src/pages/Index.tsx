@@ -1,5 +1,4 @@
 import SEO from "@/components/SEO";
-import LeadCaptureForm from "@/components/LeadCaptureForm";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { getWhatsAppLink } from "@/config";
@@ -60,7 +59,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button asChild variant="hero">
-                <Link to="#lead">Get Your CMA Licence</Link>
+                <Link to="/contact">Get Your CMA Licence</Link>
               </Button>
               <Button asChild variant="outline">
                 <Link to="/contact">Book a Consultation</Link>
@@ -79,11 +78,18 @@ const Index = () => {
               <li>• Broker registration Kenya</li>
             </ul>
           </div>
-          <div id="lead" className="relative">
-            <div className="absolute -inset-4 rounded-2xl blur-xl opacity-40 bg-[radial-gradient(circle_at_top_left,hsl(var(--brand-glow)/0.35),transparent_60%)]" aria-hidden />
-            <LeadCaptureForm />
-            <div className="mt-3 text-sm text-muted-foreground">
-              Or chat now: <a className="underline" href={getWhatsAppLink("Hi AGA, I want to discuss CMA licensing.")} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <div>
+            <div className="rounded-lg border bg-background p-6 text-center">
+              <h3 className="text-xl font-semibold mb-4">Ready to Get Started?</h3>
+              <p className="text-muted-foreground mb-6">Contact our expert team for personalized guidance and support throughout your CMA licensing journey.</p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Button asChild>
+                  <Link to="/contact">Start Your Application</Link>
+                </Button>
+                <div className="text-sm text-muted-foreground">
+                  Or chat now: <a className="underline hover:no-underline" href={getWhatsAppLink("Hi AGA, I want to discuss CMA licensing.")} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -229,7 +235,7 @@ const Index = () => {
           <h2 className="text-2xl font-semibold">Ready to enter Kenya?</h2>
           <p className="text-muted-foreground">Book a consultation or start your CMA licence application today.</p>
           <div className="flex justify-center gap-3">
-            <Button asChild variant="hero"><Link to="#lead">Get Your CMA Licence</Link></Button>
+            <Button asChild variant="hero"><Link to="/contact">Get Your CMA Licence</Link></Button>
             <Button asChild variant="outline"><Link to="/contact">Contact Us</Link></Button>
           </div>
         </div>
