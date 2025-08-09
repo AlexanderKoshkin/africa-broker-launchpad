@@ -57,6 +57,14 @@ const App = () => (
               }
             />
             <Route
+              path="/licensing-process"
+              element={
+                <Layout>
+                  <Process />
+                </Layout>
+              }
+            />
+            <Route
               path="/about"
               element={
                 <Layout>

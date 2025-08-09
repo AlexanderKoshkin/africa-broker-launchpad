@@ -5,7 +5,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const navItems = [
   { to: "/services", label: "Services" },
   { to: "/market-opportunity", label: "Market" },
-  { to: "/process", label: "Process" },
+  { to: "/licensing-process", label: "Process" },
   { to: "/about", label: "About" },
   { to: "/case-studies", label: "Case Studies" },
   { to: "/contact", label: "Contact" },
