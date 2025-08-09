@@ -70,6 +70,14 @@ export default function Process() {
       <section className="container py-12 md:py-16">
         <h1 className="text-3xl md:text-4xl font-bold">CMA Kenya Brokerage Licensing Process</h1>
         
+        <div className="mt-8">
+          <img 
+            src="/lovable-uploads/98cd3c24-0876-4d40-90a8-6bba4cbf85bc.png" 
+            alt="Mount Kilimanjaro landscape - representing Kenya's market opportunities"
+            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"
+          />
+        </div>
+        
         <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Simplifying CMA Licensing</h2>
           <p className="text-muted-foreground max-w-3xl">

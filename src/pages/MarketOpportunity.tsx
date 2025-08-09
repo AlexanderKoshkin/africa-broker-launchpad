@@ -37,6 +37,14 @@ export default function MarketOpportunity() {
       <section className="container py-12 md:py-16">
         <h1 className="text-3xl md:text-4xl font-bold">Kenya's FX & CFD Market: Growth & Licensing Advantages</h1>
         
+        <div className="mt-8">
+          <img 
+            src="/lovable-uploads/0f2f8feb-0ec7-45b6-bc79-1cfd71b7ff23.png" 
+            alt="Nairobi city skyline at night - Kenya's growing financial market"
+            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"
+          />
+        </div>
+        
         <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Why Kenya?</h2>
           <p className="text-muted-foreground max-w-3xl">

@@ -13,6 +13,14 @@ export default function About() {
       <section className="container py-12 md:py-16">
         <h1 className="text-3xl md:text-4xl font-bold">About Africa Growth Advisors (AGA)</h1>
         
+        <div className="mt-8">
+          <img 
+            src="/lovable-uploads/14128ee9-943d-45ae-8399-07ea9bef59f3.png" 
+            alt="Nairobi city skyline - Africa Growth Advisors' market presence"
+            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"
+          />
+        </div>
+        
         <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Our Mission & Values</h2>
           <p className="text-muted-foreground max-w-3xl">
