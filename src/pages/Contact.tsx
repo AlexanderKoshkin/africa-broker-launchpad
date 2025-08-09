@@ -10,10 +10,18 @@ const faqJsonLd = {
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Who is Keith Mukami?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Keith Mukami is the Senior Legal Counsel at Africa Growth Advisors with over two decades of experience in financial regulation and market entry strategies across Africa."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "How can I contact AGA?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You can contact us via email, phone, WhatsApp, or our online contact form."
+        "text": "You can contact us via email, phone, WhatsApp, our online form, or by booking a call directly with our legal counsel."
       }
     },
     {
@@ -32,15 +40,22 @@ export default function Contact() {
     <>
       <SEO
         title="Contact AGA | CMA Kenya Licensing Support"
-        description="Start your CMA Kenya licensing process today. Contact AGA for expert guidance and market entry solutions."
+        description="Start your CMA Kenya licensing process today. Contact AGA for expert guidance from our senior legal counsel Keith Mukami and team."
         path="/contact"
         jsonLd={faqJsonLd}
       />
       <section className="container py-12 md:py-16">
         <h1 className="text-3xl md:text-4xl font-bold">Contact Africa Growth Advisors</h1>
         
+        <div className="mt-6 mb-10">
+          <p className="text-lg text-muted-foreground max-w-3xl">
+            Ready to secure your CMA Kenya licence? Get in touch with our expert team for personalized guidance and support throughout your licensing journey.
+          </p>
+        </div>
+        
         <div className="mt-8 grid gap-10 lg:grid-cols-2">
           <div>
+            <h2 className="text-2xl font-semibold mb-6">Send Us an Enquiry</h2>
             <LeadCaptureForm />
           </div>
           
@@ -68,22 +83,59 @@ export default function Contact() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div>
-              <h2 className="text-xl font-semibold mb-4">Next Steps</h2>
-              <div className="space-y-3">
-                <Button asChild className="w-full">
-                  <a href={getWhatsAppLink("Hi AGA, I'd like to book a call to discuss CMA licensing.")} target="_blank" rel="noopener noreferrer">
-                    Book a Call
+        <section className="mt-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-semibold mb-8 text-center">Meet Our Senior Legal Counsel</h2>
+            <div className="rounded-lg border p-8 bg-muted/30">
+              <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/lovable-uploads/477a8f07-ad5a-4a12-828d-af46b91c6ba6.png" 
+                    alt="Keith Mukami – Senior Legal Counsel, Africa Growth Advisors"
+                    className="w-48 h-48 object-cover rounded-lg shadow-lg"
+                  />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-xl font-semibold mb-2">Keith Mukami</h3>
+                  <p className="text-lg text-primary font-medium mb-4">Senior Legal Counsel</p>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Keith Mukami is a highly experienced corporate lawyer with over 20 years in financial regulation and market entry strategy across Africa. He has advised numerous multinational brokers on licensing, compliance, and operational setup in Kenya and beyond.
+                  </p>
+                  <a 
+                    href="https://za.linkedin.com/in/keithmukami" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-primary hover:underline font-medium"
+                  >
+                    View Keith's LinkedIn Profile →
                   </a>
-                </Button>
-                <p className="text-sm text-muted-foreground">
-                  Learn more about our <Link to="/services" className="underline hover:no-underline">services</Link> before getting in touch.
-                </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section className="mt-16 text-center">
+          <h2 className="text-2xl font-semibold mb-6">Start Your CMA Licensing Journey Today</h2>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg">
+              <a href={getWhatsAppLink("Hi AGA, I'd like to submit an enquiry about CMA licensing.")} target="_blank" rel="noopener noreferrer">
+                Submit Your Enquiry
+              </a>
+            </Button>
+            <Button asChild variant="outline" size="lg">
+              <a href={getWhatsAppLink("Hi AGA, I'd like to book a call with Keith about CMA licensing.")} target="_blank" rel="noopener noreferrer">
+                Book a Call with Keith
+              </a>
+            </Button>
+          </div>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Learn more about our <Link to="/services" className="underline hover:no-underline">services</Link> or <Link to="/about" className="underline hover:no-underline">about us</Link>.
+          </p>
+        </section>
       </section>
     </>
   );

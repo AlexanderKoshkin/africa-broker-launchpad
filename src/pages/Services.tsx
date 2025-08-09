@@ -8,18 +8,26 @@ const faqJsonLd = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What does the CMA licensing package include?",
+      "name": "How much does a CMA Kenya license cost with AGA?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our CMA licensing package includes regulatory compliance, legal documentation, operational setup, and full liaison with the Capital Markets Authority."
+        "text": "AGA's complete CMA Kenya license package costs USD 100,000, which saves brokers approximately USD 50,000 compared to the DIY approach."
       }
     },
     {
       "@type": "Question",
-      "name": "Can you help with M-Pesa integration?",
+      "name": "How long does the licensing process take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We assist with integrating M-Pesa, Airtel Money, and other payment providers as part of your Kenya market entry."
+        "text": "With AGA, the CMA licensing process typically takes 21–36 weeks, saving 6–8 months compared to handling it independently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the CMA licensing package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The package includes regulatory compliance, legal documentation, capital guidance, operational setup, and direct liaison with the CMA."
       }
     }
   ]
@@ -29,31 +37,94 @@ export default function Services() {
   return (
     <>
       <SEO
-        title="CMA Kenya Broker Licensing Solutions | AGA"
-        description="Full-service CMA Kenya broker licensing, market entry, payment integration & compliance support for FX & CFD brokers."
+        title="CMA Kenya Licensing Services | Africa Growth Advisors"
+        description="Save $50K and months of time with AGA's complete CMA Kenya licensing solution for FX and CFD brokers."
         path="/services"
         jsonLd={faqJsonLd}
       />
       <section className="container py-12 md:py-16">
-        <h1 className="text-3xl md:text-4xl font-bold">CMA Kenya Brokerage Licensing & Market Entry Services</h1>
+        <h1 className="text-3xl md:text-4xl font-bold">Our CMA Kenya Licensing Services</h1>
         
-        <div className="mt-8 mb-8">
+        <div className="mt-6 mb-10">
+          <p className="text-lg text-muted-foreground max-w-3xl">
+            Get your CMA Kenya brokerage licence with our proven end-to-end solution. We handle the complex regulatory process so you can focus on growing your business.
+          </p>
+        </div>
+
+        <div className="mt-8 mb-12">
           <img 
             src="/lovable-uploads/e9108ca6-a202-459b-bd84-d099ffb0188c.png" 
             alt="Professional meeting between broker and legal consultant in Kenya"
             className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
           />
         </div>
-        
-        <section className="mt-8">
-          <h2 className="text-2xl font-semibold mb-4">Why Work with AGA for CMA Licensing</h2>
-          <p className="text-muted-foreground max-w-3xl">
-            Securing a CMA Kenya brokerage licence requires deep regulatory knowledge, local connections, and meticulous attention to detail. 
-            Africa Growth Advisors combines legal expertise with operational experience to fast-track your market entry.
-          </p>
-        </section>
 
         <section className="mt-12">
+          <h2 className="text-3xl font-bold text-center mb-6">Save Time & $50,000 Compared to Going Solo</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="grid gap-8 md:grid-cols-2">
+              <div className="rounded-lg border p-6 bg-red-50 dark:bg-red-950/20">
+                <h3 className="text-xl font-semibold mb-4 text-red-800 dark:text-red-200">DIY Approach Costs</h3>
+                <div className="space-y-3">
+                  <div className="flex justify-between">
+                    <span>Legal & Regulatory Fees</span>
+                    <span className="font-medium">$35,000</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Compliance Setup</span>
+                    <span className="font-medium">$25,000</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Local Partnerships</span>
+                    <span className="font-medium">$30,000</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Technology Integration</span>
+                    <span className="font-medium">$20,000</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Operational Setup</span>
+                    <span className="font-medium">$15,000</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Contingency & Delays</span>
+                    <span className="font-medium">$25,000</span>
+                  </div>
+                  <hr className="border-red-200 dark:border-red-800" />
+                  <div className="flex justify-between text-lg font-bold">
+                    <span>Total DIY Cost</span>
+                    <span>$150,000</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="rounded-lg border p-6 bg-green-50 dark:bg-green-950/20">
+                <h3 className="text-xl font-semibold mb-4 text-green-800 dark:text-green-200">AGA Solution</h3>
+                <div className="space-y-3">
+                  <div className="flex justify-between">
+                    <span>Complete CMA License Package</span>
+                    <span className="font-medium">$100,000</span>
+                  </div>
+                  <div className="flex justify-between text-green-700 dark:text-green-300">
+                    <span>Savings vs DIY</span>
+                    <span className="font-bold">$50,000</span>
+                  </div>
+                  <div className="flex justify-between text-green-700 dark:text-green-300">
+                    <span>Time Savings</span>
+                    <span className="font-bold">6-8 months</span>
+                  </div>
+                </div>
+                <div className="mt-6 p-4 bg-green-100 dark:bg-green-900/30 rounded-lg">
+                  <p className="text-sm text-green-800 dark:text-green-200 font-medium">
+                    Our turnkey solution eliminates common delays, regulatory mistakes, and operational challenges.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-16">
           <h2 className="text-2xl font-semibold mb-6">Core Licensing Package</h2>
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-lg border p-6">
@@ -112,28 +183,42 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Cost Savings vs DIY</h2>
-          <div className="rounded-lg border p-6 bg-muted/50">
-            <p className="text-muted-foreground">
-              Our turnkey solution typically saves 60-80% of the time and costs compared to handling CMA licensing independently. 
-              We eliminate common delays, regulatory mistakes, and operational setup challenges that often derail DIY applications.
-            </p>
+        <section className="mt-16">
+          <h2 className="text-2xl font-semibold mb-6">Process & Timeline</h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="rounded-lg border p-6 text-center">
+              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+              <h3 className="text-lg font-semibold mb-2">Foundation</h3>
+              <p className="text-sm text-muted-foreground">Documentation & setup</p>
+              <p className="text-xs text-muted-foreground mt-1">4-6 weeks</p>
+            </div>
+            <div className="rounded-lg border p-6 text-center">
+              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+              <h3 className="text-lg font-semibold mb-2">Processing</h3>
+              <p className="text-sm text-muted-foreground">CMA review & approval</p>
+              <p className="text-xs text-muted-foreground mt-1">12-24 weeks</p>
+            </div>
+            <div className="rounded-lg border p-6 text-center">
+              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+              <h3 className="text-lg font-semibold mb-2">Launch</h3>
+              <p className="text-sm text-muted-foreground">Final setup & go-live</p>
+              <p className="text-xs text-muted-foreground mt-1">5-6 weeks</p>
+            </div>
           </div>
         </section>
 
-        <section className="mt-12 text-center">
-          <h2 className="text-2xl font-semibold mb-4">Ready to Start Your CMA Licensing Journey?</h2>
+        <section className="mt-16 text-center">
+          <h2 className="text-2xl font-semibold mb-6">Start Your CMA Licensing Process Today</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg">
-              <Link to="/contact">Get Your CMA Licence</Link>
+              <Link to="/contact">Request a Cost Comparison</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link to="/contact">Book a Free Consultation</Link>
+              <Link to="/contact">Get Started with Licensing</Link>
             </Button>
           </div>
           <p className="mt-4 text-sm text-muted-foreground">
-            Learn more about the <Link to="/market-opportunity" className="underline hover:no-underline">market opportunity</Link> or our <Link to="/licensing-process" className="underline hover:no-underline">licensing process</Link>.
+            Learn more <Link to="/about" className="underline hover:no-underline">about us</Link> or <Link to="/contact" className="underline hover:no-underline">contact us</Link> for details.
           </p>
         </section>
       </section>
