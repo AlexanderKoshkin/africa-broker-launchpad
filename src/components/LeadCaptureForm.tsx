@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { toast } from "@/hooks/use-toast";
 import { getWhatsAppLink, WHATSAPP_NUMBER_INTL } from "@/config";
+import { supabase } from "@/integrations/supabase/client";
 
 const LeadSchema = z.object({
   name: z.string().min(2, "Please enter your full name"),
@@ -26,23 +27,49 @@ export default function LeadCaptureForm({ compact = false }: { compact?: boolean
   });
 
   const onSubmit = async (data: LeadFormData) => {
-    const subject = encodeURIComponent("AGA: CMA Licensing Consultation");
-    const body = encodeURIComponent(
-      `Name: ${data.name}\nCompany: ${data.company}\nEmail: ${data.email}\nPhone: ${data.phone}\n\nMessage:\n${data.message}`
-    );
+    try {
+      // Convert phone to numeric value by removing non-digits and country code prefix
+      const phoneDigits = data.phone.replace(/\D/g, '');
+      const phoneNumber = parseInt(phoneDigits);
 
-    // Basic conversion tracking hook
-    (window as any).dataLayer = (window as any).dataLayer || [];
-    (window as any).dataLayer.push({ event: "lead_form_submit", form: data });
+      // Insert data into Supabase
+      const { error } = await supabase
+        .from('AGA Contacts')
+        .insert({
+          full_name: data.name,
+          email: data.email,
+          phone_number: phoneNumber,
+          company: data.company,
+          message: data.message
+        });
 
-    // Open email client as interim submission method
-    window.open(`mailto:kmukami@hotmail.com?subject=${subject}&body=${body}`, "_blank");
+      if (error) {
+        console.error('Error saving to database:', error);
+        toast({ 
+          title: "Error submitting form", 
+          description: "Please try again or contact us directly.",
+          variant: "destructive"
+        });
+        return;
+      }
 
-    toast({ 
-      title: "Thank you — our team will contact you within 24 hours.", 
-      description: "We'll be in touch soon to discuss your CMA licensing needs." 
-    });
-    reset();
+      // Basic conversion tracking hook
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      (window as any).dataLayer.push({ event: "lead_form_submit", form: data });
+
+      toast({ 
+        title: "Thank you — our team will contact you within 24 hours.", 
+        description: "We'll be in touch soon to discuss your CMA licensing needs." 
+      });
+      reset();
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({ 
+        title: "Error submitting form", 
+        description: "Please try again or contact us directly.",
+        variant: "destructive"
+      });
+    }
   };
 
   return (
