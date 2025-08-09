@@ -1,0 +1,1 @@
+This file is intentionally left blank. Placeholder to ensure SEO content pages are discoverable in the project.
