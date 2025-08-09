@@ -95,7 +95,7 @@ export default function Contact() {
                   <img 
                     src="/lovable-uploads/477a8f07-ad5a-4a12-828d-af46b91c6ba6.png" 
                     alt="Keith Mukami – Senior Legal Counsel, Africa Growth Advisors"
-                    className="w-48 h-48 object-cover rounded-lg shadow-lg"
+                    className="w-48 h-60 object-cover object-top rounded-lg shadow-lg"
                   />
                 </div>
                 <div className="flex-1 text-center md:text-left">

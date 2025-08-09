@@ -46,7 +46,7 @@ export default function About() {
           <h2 className="text-2xl font-semibold mb-6">Track Record Highlights</h2>
           <div className="grid gap-6 md:grid-cols-3">
             <div className="text-center rounded-lg border p-6">
-              <div className="text-2xl font-bold text-primary">95%</div>
+              <div className="text-2xl font-bold text-primary">100%</div>
               <p className="text-sm text-muted-foreground mt-1">CMA application success rate</p>
             </div>
             <div className="text-center rounded-lg border p-6">
@@ -54,7 +54,7 @@ export default function About() {
               <p className="text-sm text-muted-foreground mt-1">Weeks average licensing time</p>
             </div>
             <div className="text-center rounded-lg border p-6">
-              <div className="text-2xl font-bold text-primary">50+</div>
+              <div className="text-2xl font-bold text-primary">10+</div>
               <p className="text-sm text-muted-foreground mt-1">Successful market entries</p>
             </div>
           </div>
