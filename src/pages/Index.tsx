@@ -3,6 +3,7 @@ import LeadCaptureForm from "@/components/LeadCaptureForm";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { getWhatsAppLink } from "@/config";
+import { DollarSign, Globe, Trophy, Key, Handshake } from "lucide-react";
 
 const Index = () => {
   const jsonLd = {
@@ -88,14 +89,68 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="border-t">
-        <div className="container py-10">
-          <h2 className="text-xl font-semibold">Quick Stats & Benefits</h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="rounded-lg border p-4"><p className="text-3xl font-bold">21–36w</p><p className="text-sm text-muted-foreground">Typical licensing timeline</p></div>
-            <div className="rounded-lg border p-4"><p className="text-3xl font-bold">100%</p><p className="text-sm text-muted-foreground">Local payments (M-Pesa/Airtel)</p></div>
-            <div className="rounded-lg border p-4"><p className="text-3xl font-bold">Trusted</p><p className="text-sm text-muted-foreground">Regulated market presence</p></div>
-            <div className="rounded-lg border p-4"><p className="text-3xl font-bold">End‑to‑end</p><p className="text-sm text-muted-foreground">From application to launch</p></div>
+      <section className="border-t bg-muted/30">
+        <div className="container py-12">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-semibold">Why Choose AGA for Your CMA License?</h2>
+            <p className="text-muted-foreground mt-2">Professional, proven, and cost-effective solutions for broker market entry</p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
+            <Link to="/services" className="group">
+              <div className="rounded-lg border bg-background p-6 h-full transition-all hover:shadow-md hover:border-primary/20">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="rounded-full bg-primary/10 p-2">
+                    <DollarSign className="h-5 w-5 text-primary" aria-hidden="true" />
+                  </div>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Save up to USD 100K</h3>
+                <p className="text-sm text-muted-foreground">Cut licensing costs by up to 33% compared to going solo.</p>
+              </div>
+            </Link>
+            <Link to="/services" className="group">
+              <div className="rounded-lg border bg-background p-6 h-full transition-all hover:shadow-md hover:border-primary/20">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="rounded-full bg-primary/10 p-2">
+                    <Globe className="h-5 w-5 text-primary" aria-hidden="true" />
+                  </div>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Instant Local Expertise</h3>
+                <p className="text-sm text-muted-foreground">Get direct access to Kenyan legal, compliance, and operational know-how.</p>
+              </div>
+            </Link>
+            <Link to="/services" className="group">
+              <div className="rounded-lg border bg-background p-6 h-full transition-all hover:shadow-md hover:border-primary/20">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="rounded-full bg-primary/10 p-2">
+                    <Trophy className="h-5 w-5 text-primary" aria-hidden="true" />
+                  </div>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">10+ CMA Licenses Secured</h3>
+                <p className="text-sm text-muted-foreground">A proven track record with successful broker approvals.</p>
+              </div>
+            </Link>
+            <Link to="/services" className="group">
+              <div className="rounded-lg border bg-background p-6 h-full transition-all hover:shadow-md hover:border-primary/20">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="rounded-full bg-primary/10 p-2">
+                    <Key className="h-5 w-5 text-primary" aria-hidden="true" />
+                  </div>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Key-Turn Licensing</h3>
+                <p className="text-sm text-muted-foreground">From documentation to CMA approval — we handle it all.</p>
+              </div>
+            </Link>
+            <Link to="/services" className="group">
+              <div className="rounded-lg border bg-background p-6 h-full transition-all hover:shadow-md hover:border-primary/20">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="rounded-full bg-primary/10 p-2">
+                    <Handshake className="h-5 w-5 text-primary" aria-hidden="true" />
+                  </div>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Ongoing Support</h3>
+                <p className="text-sm text-muted-foreground">Compliance, payment integrations, and partnerships that last.</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
