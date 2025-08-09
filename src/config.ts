@@ -1,5 +1,5 @@
-export const WHATSAPP_NUMBER = "254700000000"; // Replace with your official business number (no +)
-export const WHATSAPP_NUMBER_INTL = "+254 700 000 000";
+export const WHATSAPP_NUMBER = "27791811805"; // Replace with your official business number (no +)
+export const WHATSAPP_NUMBER_INTL = "+27 79 181 1805";
 
 export function getWhatsAppLink(message: string) {
   const text = encodeURIComponent(message);

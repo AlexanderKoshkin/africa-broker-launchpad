@@ -10,7 +10,7 @@ import Services from "./pages/Services";
 import MarketOpportunity from "./pages/MarketOpportunity";
 import Process from "./pages/Process";
 import About from "./pages/About";
-import CaseStudies from "./pages/CaseStudies";
+
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -49,6 +49,14 @@ const App = () => (
               }
             />
             <Route
+              path="/kenya-market-opportunity"
+              element={
+                <Layout>
+                  <MarketOpportunity />
+                </Layout>
+              }
+            />
+            <Route
               path="/process"
               element={
                 <Layout>
@@ -69,14 +77,6 @@ const App = () => (
               element={
                 <Layout>
                   <About />
-                </Layout>
-              }
-            />
-            <Route
-              path="/case-studies"
-              element={
-                <Layout>
-                  <CaseStudies />
                 </Layout>
               }
             />

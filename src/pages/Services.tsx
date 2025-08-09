@@ -37,6 +37,14 @@ export default function Services() {
       <section className="container py-12 md:py-16">
         <h1 className="text-3xl md:text-4xl font-bold">CMA Kenya Brokerage Licensing & Market Entry Services</h1>
         
+        <div className="mt-8 mb-8">
+          <img 
+            src="/lovable-uploads/e9108ca6-a202-459b-bd84-d099ffb0188c.png" 
+            alt="Professional meeting between broker and legal consultant in Kenya"
+            className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+          />
+        </div>
+        
         <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Why Work with AGA for CMA Licensing</h2>
           <p className="text-muted-foreground max-w-3xl">

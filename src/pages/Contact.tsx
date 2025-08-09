@@ -48,7 +48,8 @@ export default function Contact() {
             <div>
               <h2 className="text-xl font-semibold mb-4">Direct Contact Information</h2>
               <div className="space-y-3 text-muted-foreground">
-                <p><strong>Email:</strong> info@africagrowthadvisors.com</p>
+                <p><strong>Email:</strong> kmukami@hotmail.com</p>
+                <p><strong>Phone:</strong> +255 769 925 645</p>
                 <p><strong>WhatsApp:</strong> <a className="underline hover:no-underline text-primary" href={getWhatsAppLink("Hi AGA, I'd like to discuss CMA licensing in Kenya.")} target="_blank" rel="noopener noreferrer">{WHATSAPP_NUMBER_INTL}</a></p>
                 <p><strong>Response Time:</strong> We typically respond within one business day</p>
               </div>

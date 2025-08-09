@@ -7,7 +7,7 @@ const navItems = [
   { to: "/market-opportunity", label: "Market" },
   { to: "/licensing-process", label: "Process" },
   { to: "/about", label: "About" },
-  { to: "/case-studies", label: "Case Studies" },
+  
   { to: "/contact", label: "Contact" },
 ];
 
