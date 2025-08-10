@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 export default function SiteFooter() {
@@ -22,7 +23,7 @@ export default function SiteFooter() {
         <div>
           <p className="font-semibold">Contact</p>
           <p className="text-sm text-muted-foreground mt-2">
-            Nairobi, Kenya • info@africagrowthadvisors.com
+            Email: kmukami@hotmail.com
           </p>
         </div>
       </div>
