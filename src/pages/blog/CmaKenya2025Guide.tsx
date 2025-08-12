@@ -162,17 +162,6 @@ export default function CmaKenya2025Guide() {
                     Kenya has far fewer licensed brokers per capita than major regulated markets—leaving room for new entrants.
                   </figcaption>
                 </figure>
-                <figure className="rounded-lg border p-4 bg-card">
-                  <a href="https://unsplash.com/photos/kenya-nairobi-skyline-aerial-view-hgGplX3PFBg" target="_blank" rel="noopener noreferrer">
-                    <img
-                      src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?fm=jpg&q=80&w=1600&ixlib=rb-4.1.0"
-                      alt="Comparison of broker density in Kenya vs other regulated markets, showing Kenya has fewer brokers per capita."
-                      loading="lazy"
-                      className="w-full h-auto rounded-md border"
-                    />
-                  </a>
-                  <figcaption className="mt-2 text-xs text-muted-foreground">Photo via Unsplash</figcaption>
-                </figure>
               </div>
             </div>
           </section>
@@ -214,17 +203,6 @@ export default function CmaKenya2025Guide() {
                   <figcaption className="mt-2 text-xs text-muted-foreground">
                     Kenya’s CMA has steadily increased enforcement and regulation since 2020, ensuring only serious, compliant brokers operate.
                   </figcaption>
-                </figure>
-                <figure className="rounded-lg border p-4 bg-card">
-                  <a href="https://unsplash.com/photos/close-up-of-legal-documents-and-gavel-E7RLgUjjazc" target="_blank" rel="noopener noreferrer">
-                    <img
-                      src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?fm=jpg&q=80&w=1600&ixlib=rb-4.1.0"
-                      alt="Timeline showing Kenya CMA’s regulatory milestones and enforcement actions from 2020 to 2025."
-                      loading="lazy"
-                      className="w-full h-auto rounded-md border"
-                    />
-                  </a>
-                  <figcaption className="mt-2 text-xs text-muted-foreground">Photo via Unsplash</figcaption>
                 </figure>
               </div>
             </div>
