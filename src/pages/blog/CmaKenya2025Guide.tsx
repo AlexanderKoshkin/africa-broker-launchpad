@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
-import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from "@/components/ui/chart";
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar, Cell } from "recharts";
 
 const PAGE_PATH = "/blog/cma-licensing-kenya-2025-guide";
@@ -142,13 +142,14 @@ export default function CmaKenya2025Guide() {
               </ul>
               <div className="space-y-3">
                 <figure className="rounded-lg border p-4 bg-card">
-                  <div aria-label="Comparison of broker density in Kenya vs other regulated markets, showing Kenya has fewer brokers per capita." role="img" className="w-full h-64">
+                  <div aria-label="Comparison of broker density in Kenya vs other regulated markets, showing Kenya has fewer brokers per capita." role="img" className="w-full h-64 mb-4">
                     <ChartContainer config={{}}>
-                      <BarChart data={densityData} margin={{ left: 8, right: 8 }}>
+                      <BarChart data={densityData} margin={{ top: 8, left: 8, right: 8, bottom: 36 }}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="country" tick={{ fontSize: 12 }} />
                         <YAxis tick={{ fontSize: 12 }} />
                         <ChartTooltip content={<ChartTooltipContent />} />
+                        <ChartLegend verticalAlign="bottom" content={<ChartLegendContent />} />
                         <Bar dataKey="value" name="Brokers per 1M population">
                           {densityData.map((entry, index) => (
                             <Cell key={`cell-${index}`} fill={entry.country === "Kenya" ? kenyaColor : mutedColor} />
