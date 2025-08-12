@@ -11,6 +11,7 @@ import MarketOpportunity from "./pages/MarketOpportunity";
 import Process from "./pages/Process";
 import About from "./pages/About";
 import BlogCmaKenya2025Guide from "./pages/blog/CmaKenya2025Guide";
+import BlogIndex from "./pages/BlogIndex";
 
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -86,6 +87,14 @@ const App = () => (
               element={
                 <Layout>
                   <Contact />
+                </Layout>
+              }
+            />
+            <Route
+              path="/blog"
+              element={
+                <Layout>
+                  <BlogIndex />
                 </Layout>
               }
             />
