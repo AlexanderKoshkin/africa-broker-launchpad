@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import MarketOpportunity from "./pages/MarketOpportunity";
 import Process from "./pages/Process";
 import About from "./pages/About";
+import BlogCmaKenya2025Guide from "./pages/blog/CmaKenya2025Guide";
 
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -85,6 +86,14 @@ const App = () => (
               element={
                 <Layout>
                   <Contact />
+                </Layout>
+              }
+            />
+            <Route
+              path="/blog/cma-licensing-kenya-2025-guide"
+              element={
+                <Layout>
+                  <BlogCmaKenya2025Guide />
                 </Layout>
               }
             />
