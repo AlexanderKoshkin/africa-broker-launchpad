@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
+import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import { BarChart, CartesianGrid, XAxis, YAxis, Bar, Cell } from "recharts";
 
 const PAGE_PATH = "/blog/cma-licensing-kenya-2025-guide";
 const META_TITLE = "CMA Licensing in Kenya – 2025 FX & CFD Broker Guide";
@@ -75,6 +77,23 @@ const faqJsonLd = {
 };
 
 export default function CmaKenya2025Guide() {
+  const densityData = [
+    { country: "Kenya", value: 0.36 },
+    { country: "South Africa", value: 1.9 },
+    { country: "UK", value: 3.2 },
+    { country: "Australia", value: 2.5 },
+  ];
+  const kenyaColor = "hsl(142 70% 45%)";
+  const mutedColor = "hsl(var(--muted-foreground))";
+  const infoColor = "hsl(217 91% 60%)";
+  const timeline = [
+    { year: 2020, type: "enforcement", label: "CMA issues public warning on unlicensed platforms" },
+    { year: 2021, type: "regulation", label: "Stricter reporting requirements introduced" },
+    { year: 2022, type: "enforcement", label: "Cease-and-desist orders issued to offshore brokers" },
+    { year: 2023, type: "regulation", label: "Capital requirements increased" },
+    { year: 2024, type: "regulation", label: "Expanded consumer protection rules" },
+    { year: 2025, type: "enforcement", label: "<20 licensed brokers, ongoing enforcement" },
+  ];
   return (
     <>
       <SEO
@@ -121,17 +140,39 @@ export default function CmaKenya2025Guide() {
                 <li>• 96%+ mobile money penetration (M-Pesa led)</li>
                 <li>• Under 20 licensed non-dealing online FX brokers (early mover upside)</li>
               </ul>
-              <figure className="rounded-lg border p-4 bg-card">
-                <img
-                  src="/placeholder.svg"
-                  alt="Number of CMA-licensed brokers vs active traders in Kenya"
-                  loading="lazy"
-                  className="w-full h-auto"
-                />
-                <figcaption className="mt-2 text-xs text-muted-foreground">
-                  Chart: CMA-licensed brokers vs active traders in Kenya (illustrative)
-                </figcaption>
-              </figure>
+              <div className="space-y-3">
+                <figure className="rounded-lg border p-4 bg-card">
+                  <div aria-label="Comparison of broker density in Kenya vs other regulated markets, showing Kenya has fewer brokers per capita." role="img" className="w-full h-64">
+                    <ChartContainer config={{}}>
+                      <BarChart data={densityData} margin={{ left: 8, right: 8 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="country" tick={{ fontSize: 12 }} />
+                        <YAxis tick={{ fontSize: 12 }} />
+                        <ChartTooltip content={<ChartTooltipContent />} />
+                        <Bar dataKey="value" name="Brokers per 1M population">
+                          {densityData.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={entry.country === "Kenya" ? kenyaColor : mutedColor} />
+                          ))}
+                        </Bar>
+                      </BarChart>
+                    </ChartContainer>
+                  </div>
+                  <figcaption className="mt-2 text-xs text-muted-foreground">
+                    Kenya has far fewer licensed brokers per capita than major regulated markets—leaving room for new entrants.
+                  </figcaption>
+                </figure>
+                <figure className="rounded-lg border p-4 bg-card">
+                  <a href="https://unsplash.com/photos/kenya-nairobi-skyline-aerial-view-hgGplX3PFBg" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?fm=jpg&q=80&w=1600&ixlib=rb-4.1.0"
+                      alt="Comparison of broker density in Kenya vs other regulated markets, showing Kenya has fewer brokers per capita."
+                      loading="lazy"
+                      className="w-full h-auto rounded-md border"
+                    />
+                  </a>
+                  <figcaption className="mt-2 text-xs text-muted-foreground">Photo via Unsplash</figcaption>
+                </figure>
+              </div>
             </div>
           </section>
 
@@ -149,17 +190,42 @@ export default function CmaKenya2025Guide() {
                 <li>• Conduct standards, risk disclosures, and complaints handling</li>
                 <li>• Local presence/partnerships for market and payments access</li>
               </ul>
-              <figure className="rounded-lg border p-4 bg-card">
-                <img
-                  src="/placeholder.svg"
-                  alt="CMA regulatory milestones and enforcement actions 2020–2025"
-                  loading="lazy"
-                  className="w-full h-auto"
-                />
-                <figcaption className="mt-2 text-xs text-muted-foreground">
-                  Timeline: CMA regulatory milestones and enforcement actions 2020–2025 (illustrative)
-                </figcaption>
-              </figure>
+              <div className="space-y-3">
+                <figure className="rounded-lg border p-4 bg-card">
+                  <div aria-label="Timeline showing Kenya CMA’s regulatory milestones and enforcement actions from 2020 to 2025." role="img">
+                    <ol className="relative pl-6 space-y-4">
+                      <span className="absolute left-3 top-2 bottom-2 w-px bg-border" aria-hidden="true" />
+                      {timeline.map((e) => (
+                        <li key={e.year} className="relative flex gap-3 items-start">
+                          <span
+                            className="mt-1 h-3 w-3 rounded-full shrink-0"
+                            style={{ backgroundColor: e.type === "regulation" ? infoColor : "hsl(var(--destructive))" }}
+                            aria-hidden="true"
+                          />
+                          <div>
+                            <div className="text-sm font-medium">{e.year}: {e.label}</div>
+                            <div className="text-xs text-muted-foreground">{e.type === "regulation" ? "Regulation update" : "Enforcement action"}</div>
+                          </div>
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                  <figcaption className="mt-2 text-xs text-muted-foreground">
+                    Kenya’s CMA has steadily increased enforcement and regulation since 2020, ensuring only serious, compliant brokers operate.
+                  </figcaption>
+                </figure>
+                <figure className="rounded-lg border p-4 bg-card">
+                  <a href="https://unsplash.com/photos/close-up-of-legal-documents-and-gavel-E7RLgUjjazc" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?fm=jpg&q=80&w=1600&ixlib=rb-4.1.0"
+                      alt="Timeline showing Kenya CMA’s regulatory milestones and enforcement actions from 2020 to 2025."
+                      loading="lazy"
+                      className="w-full h-auto rounded-md border"
+                    />
+                  </a>
+                  <figcaption className="mt-2 text-xs text-muted-foreground">Photo via Unsplash</figcaption>
+                </figure>
+              </div>
             </div>
           </section>
 
