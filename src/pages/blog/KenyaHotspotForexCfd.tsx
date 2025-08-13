@@ -95,19 +95,19 @@ export default function KenyaHotspotForexCfd() {
 
           <div className="prose prose-lg max-w-none">
             <p className="lead text-lg text-muted-foreground mb-8">
-              If you've only heard of Kenya for safaris and long-distance running, you're missing the bigger story. Over the last 3–5 years, Kenya's Capital Markets Authority (CMA) has steadily tightened supervision of FX/CFD activity and stepped up enforcement against unlicensed platforms. At the same time, the country's digital economy has grown at pace—especially mobile money and social media—creating genuine demand for regulated, locally rooted trading services.
+              When most people think of Kenya, they picture majestic wildlife, breathtaking safaris, and maybe a certain long-distance runner winning yet another Olympic gold medal. But here's the twist: Kenya is not just the land of lions and marathon champions — it's fast becoming Africa's most exciting new hub for regulated forex and CFD trading.
             </p>
 
             <p className="mb-8">
-              Below we unpack why serious brokers are putting Kenya on their 2025 roadmap—and how to approach it with compliance front and centre.
+              I've worked in African markets for over five years, and I've seen this story unfold up close — from Nairobi's buzzing fintech scene to cross-border projects spanning multiple jurisdictions. And believe me, Kenya's trajectory is one you'll want to watch.
             </p>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-semibold mb-6">1) Regulation has made considerable progress (and it's being enforced)</h2>
+              <h2 className="text-2xl font-semibold mb-6">1) Why Kenya, and Why Now?</h2>
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9"
+                  src="https://images.unsplash.com/photo-1jxUW6bVz0o?w=800&h=400&fit=crop"
                   alt="Judge's gavel and scales on legal documents"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -116,20 +116,20 @@ export default function KenyaHotspotForexCfd() {
               </div>
 
               <p className="mb-4">
-                Kenya isn't trying to outdo South Africa's mature regime, but it has moved decisively in the last few years: clearer disclosure expectations, ongoing supervision, and public warnings and cease-and-desist actions aimed at unlicensed operators. Practically, a <Link to="/services/forex-cfd-licensing-kenya" className="text-primary hover:underline">CMA licence</Link> lets you open doors that matter—bank accounts, local payment rails, ad platforms, and credible partnerships—while signalling trust to clients.
+                Kenya has made considerable regulatory progress over the last 3–5 years. The Capital Markets Authority (<Link to="/services/forex-cfd-licensing-kenya" className="text-primary hover:underline">CMA</Link>) has clarified rules for online forex and CFD activity and stepped up supervision and enforcement against unlicensed operators. The result is a functioning framework in which traders can expect safer, more transparent conditions — and brokers can operate with clarity about the rules.
               </p>
 
-              <p className="font-semibold text-primary">
-                <strong>Takeaway:</strong> This is not a "light-touch" box-ticking exercise. Plan for a real licensing process, real scrutiny, and ongoing compliance.
+              <p className="mb-4">
+                <strong>Quick fact:</strong> Nairobi is nicknamed the Silicon Savannah for its thriving tech ecosystem. Kenya gave the world M-Pesa, the mobile payments system that transformed everyday finance well before the likes of Apple Pay or Revolut. And while Kenya's modern fintech surge is recent, the country's practical streak goes way back — even in the 1960s, progressive solutions like "banking on rails" were in use and later adopted elsewhere.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-semibold mb-6">2) A digital economy built on mobile</h2>
+              <h2 className="text-2xl font-semibold mb-6">2) A Market Hungry for Access</h2>
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-H1Z6DxyVYbE?w=800&h=400&fit=crop"
                   alt="Nairobi city street with commuters using phones"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -138,24 +138,24 @@ export default function KenyaHotspotForexCfd() {
               </div>
 
               <p className="mb-4">
-                According to Statista, Kenya's internet penetration was <strong>40.8%</strong> in 2024—modest on paper, but the momentum is the headline: mobile internet users rose from a little over <strong>3 million in 2015</strong> to <strong>36+ million in 2025</strong>. That mobile-first reality (think M-Pesa) supports real-time funding, withdrawals and engagement—ideal for a regulated trading experience that feels native to Kenyans.
+                Kenya's population is young, increasingly connected, and mobile-first. According to Statista, the country's internet penetration stood at <strong>40.8%</strong> in 2024. The growth trend is the real headline: mobile internet users rose from a little over <strong>3 million in 2015</strong> to more than <strong>36 million in 2025</strong> (Statista). This is a market where mobile money is the norm, smartphones are ubiquitous, and digital products spread fast — an ideal environment for regulated online trading.
               </p>
               
               <p className="text-sm text-muted-foreground mb-4">
                 <em>Source: Statista – Internet usage in Kenya.</em>
               </p>
 
-              <p className="font-semibold text-primary">
-                <strong>Takeaway:</strong> Optimise for mobile journeys and local payments from day one.
+              <p className="mb-4">
+                And this isn't just a Nairobi story — secondary cities like Mombasa, Kisumu, and Nakuru are seeing steady growth in new traders joining the action.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-semibold mb-6">3) "Silicon Savannah": practical innovation, not hype</h2>
+              <h2 className="text-2xl font-semibold mb-6">3) Room for Brokers to Make an Impact</h2>
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-LTh5pGyvKAM?w=800&h=400&fit=crop"
                   alt="Nairobi skyline at midday"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -164,16 +164,27 @@ export default function KenyaHotspotForexCfd() {
               </div>
 
               <p className="mb-4">
-                Nairobi's nickname isn't accidental. From mobile money to creator-led education, Kenyans tend to adopt tools that solve everyday friction. For brokers, that translates into strong receptivity to compliant digital onboarding, KYC/AML tooling, and responsible product education. Blend global-grade platforms with local nuance and you'll feel the difference in conversion and retention.
+                Here's the opportunity: Kenya is regulated, but not yet saturated. The market has room for new entrants, especially those who can offer:
+              </p>
+
+              <ul className="list-disc list-inside mb-4 space-y-2">
+                <li>Strong education for first-time traders</li>
+                <li>User-friendly platforms optimised for mobile journeys</li>
+                <li>Local payment solutions beyond the usual cards and bank transfers</li>
+                <li>Regional expertise (East Africa has its own trading culture)</li>
+              </ul>
+
+              <p className="mb-4">
+                Brokers who enter now can build strong brand loyalty before the field gets too crowded.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-semibold mb-6">4) Real demand—without a "race to the bottom"</h2>
+              <h2 className="text-2xl font-semibold mb-6">4) Kenya's Famous Faces & Fun Facts</h2>
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-ofLDRVgzXC8?w=800&h=400&fit=crop"
                   alt="Great Rift Valley landscape in Kenya"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -181,30 +192,35 @@ export default function KenyaHotspotForexCfd() {
                 />
               </div>
 
-              <p className="mb-4">
-                The CMA's stance has pushed out many casual entrants while leaving space for structured players who are willing to be licensed, local and transparent. You won't face the hyper-crowding of more mature markets, but you will face an informed audience. The winning playbook: transparent pricing, robust safeguarding of client funds, and a local support layer that actually answers the phone.
-              </p>
+              <p className="mb-4">To understand the country's appeal, it helps to know a little about its cultural capital:</p>
+              <ul className="list-disc list-inside mb-4 space-y-2">
+                <li><strong>Eliud Kipchoge</strong> — Marathon world-record holder and the first person to run the distance in under two hours.</li>
+                <li><strong>Lupita Nyong'o</strong> — Oscar-winning actress who has brought Kenyan talent to the world stage. The daughter of Kenyan politician Anyang' Nyong'o, she was born in Mexico City (while her father was teaching) and raised in Kenya from the age of three.</li>
+                <li>Kenya is home to the Great Rift Valley, visible from space — and produces some of the world's best coffee beans.</li>
+                <li>The local saying "Harambee" means "let's pull together" — a spirit that runs deep in community life and business culture.</li>
+              </ul>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-semibold mb-6">5) Kenya culture corner: more than headlines</h2>
+              <h2 className="text-2xl font-semibold mb-6">5) The Bottom Line</h2>
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?w=800&h=400&fit=crop"
-                  alt="Green hills near Nairobi at sunset"
+                  src="https://images.unsplash.com/photo-OEnYEXYz0-o?w=800&h=400&fit=crop"
+                  alt="Group of runners in Kenyan street"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
                   height={400}
                 />
               </div>
 
-              <p className="mb-4">A few conversation starters for your next partner meeting:</p>
-              <ul className="list-disc list-inside mb-4 space-y-2">
-                <li><strong>Lupita Nyong'o</strong> is Kenyan–Mexican and an Oscar winner for <em>12 Years a Slave</em>. The daughter of Kenyan politician Anyang' Nyong'o, she was born in Mexico City (while her father was teaching) and raised in Kenya from age three.</li>
-                <li><strong>Nairobi National Park</strong> is a wildlife reserve <strong>inside</strong> the capital city—skyscrapers in the background, giraffes in the foreground.</li>
-                <li>Coffee lovers: Kenyan single-origin beans are among the world's most prized.</li>
-              </ul>
+              <p className="mb-4">
+                Kenya offers a compelling mix for regulated trading: clearer rules, mobile-led adoption, a young audience, and genuine room for growth. It's Africa's next big regulated trading hub — and those who move early stand to benefit most.
+              </p>
+
+              <p className="mb-4">
+                If you've been looking for your next frontier market, the Silicon Savannah is calling.
+              </p>
             </section>
 
             <section className="mb-12">
