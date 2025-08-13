@@ -107,11 +107,13 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&h=400&fit=crop"
-                  alt="Judge's gavel and scales on legal documents"
+                  src="/lovable-uploads/bafb64a3-09f8-438c-9c32-92e95242d3f9.png"
+                  alt="Modern business buildings and skyscrapers representing Kenya's growing financial sector"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
                   height={400}
+                  loading="eager"
+                  priority
                 />
               </div>
 
@@ -129,8 +131,8 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop"
-                  alt="Nairobi city street with commuters using phones"
+                  src="/lovable-uploads/14818eb6-92ec-4a70-bfbe-853851508385.png"
+                  alt="Busy Nairobi street with commuters and vehicles showing Kenya's mobile-first population"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
                   height={400}
@@ -155,8 +157,8 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop"
-                  alt="Nairobi skyline at midday"
+                  src="/lovable-uploads/b3262116-a85d-4747-b414-f9792a8adb42.png"
+                  alt="Great Rift Valley landscape showcasing Kenya's natural beauty and geographic significance"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
                   height={400}
@@ -184,8 +186,8 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&h=400&fit=crop"
-                  alt="Great Rift Valley landscape in Kenya"
+                  src="/lovable-uploads/483d4fc7-d2e0-4407-9ea5-a7bc5ca98516.png"
+                  alt="Runner in starting position on track representing Kenya's world-class athletic heritage"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
                   height={400}
@@ -204,15 +206,6 @@ export default function KenyaHotspotForexCfd() {
             <section className="mb-12">
               <h2 className="text-2xl font-semibold mb-6">5) The Bottom Line</h2>
               
-              <div className="mb-6">
-                <OptimizedImage
-                  src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800&h=400&fit=crop"
-                  alt="Group of runners in Kenyan street"
-                  className="w-full h-64 object-cover rounded-lg"
-                  width={800}
-                  height={400}
-                />
-              </div>
 
               <p className="mb-4">
                 Kenya offers a compelling mix for regulated trading: clearer rules, mobile-led adoption, a young audience, and genuine room for growth. It's Africa's next big regulated trading hub — and those who move early stand to benefit most.
