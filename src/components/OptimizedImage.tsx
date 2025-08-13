@@ -59,7 +59,7 @@ export default function OptimizedImage({
         onLoad={handleLoad}
         onError={handleError}
         decoding="async"
-        fetchPriority={priority ? "high" : "auto"}
+        {...(priority && { fetchPriority: "high" })}
       />
     </div>
   );

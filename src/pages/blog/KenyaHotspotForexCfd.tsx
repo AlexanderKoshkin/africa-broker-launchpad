@@ -107,7 +107,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1jxUW6bVz0o?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&h=400&fit=crop"
                   alt="Judge's gavel and scales on legal documents"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -129,7 +129,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-H1Z6DxyVYbE?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop"
                   alt="Nairobi city street with commuters using phones"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -155,7 +155,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-LTh5pGyvKAM?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop"
                   alt="Nairobi skyline at midday"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -184,7 +184,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-ofLDRVgzXC8?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&h=400&fit=crop"
                   alt="Great Rift Valley landscape in Kenya"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -206,7 +206,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-OEnYEXYz0-o?w=800&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800&h=400&fit=crop"
                   alt="Group of runners in Kenyan street"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
