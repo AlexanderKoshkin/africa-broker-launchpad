@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -52,7 +53,7 @@ export default function Services() {
         </div>
 
         <div className="mt-8 mb-12">
-          <img 
+          <OptimizedImage 
             src="/lovable-uploads/e9108ca6-a202-459b-bd84-d099ffb0188c.png" 
             alt="Professional meeting between broker and legal consultant in Kenya"
             className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"

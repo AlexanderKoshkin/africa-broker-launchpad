@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -38,7 +39,7 @@ export default function MarketOpportunity() {
         <h1 className="text-3xl md:text-4xl font-bold">Kenya's FX & CFD Market: Growth & Licensing Advantages</h1>
         
         <div className="mt-8">
-          <img 
+          <OptimizedImage 
             src="/lovable-uploads/0f2f8feb-0ec7-45b6-bc79-1cfd71b7ff23.png" 
             alt="Nairobi city skyline at night - Kenya's growing financial market"
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"

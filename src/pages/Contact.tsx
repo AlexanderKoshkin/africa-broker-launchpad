@@ -3,6 +3,7 @@ import LeadCaptureForm from "@/components/LeadCaptureForm";
 import { getWhatsAppLink, WHATSAPP_NUMBER_INTL } from "@/config";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -79,7 +80,7 @@ export default function Contact() {
             <div className="rounded-lg border p-8 bg-muted/30">
               <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                 <div className="flex-shrink-0">
-                  <img 
+                  <OptimizedImage 
                     src="/lovable-uploads/477a8f07-ad5a-4a12-828d-af46b91c6ba6.png" 
                     alt="Keith Mukami – Senior Legal Counsel, Africa Growth Advisors"
                     className="w-48 h-60 object-cover object-top rounded-lg shadow-lg"

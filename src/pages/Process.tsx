@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -71,7 +72,7 @@ export default function Process() {
         <h1 className="text-3xl md:text-4xl font-bold">CMA Kenya Brokerage Licensing Process</h1>
         
         <div className="mt-8">
-          <img 
+          <OptimizedImage 
             src="/lovable-uploads/98cd3c24-0876-4d40-90a8-6bba4cbf85bc.png" 
             alt="Mount Kilimanjaro landscape - representing Kenya's market opportunities"
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"

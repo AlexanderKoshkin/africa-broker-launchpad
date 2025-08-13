@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import OptimizedImage from "@/components/OptimizedImage";
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
         <h1 className="text-3xl md:text-4xl font-bold">About Africa Growth Advisors (AGA)</h1>
         
         <div className="mt-8">
-          <img 
+          <OptimizedImage 
             src="/lovable-uploads/14128ee9-943d-45ae-8399-07ea9bef59f3.png" 
             alt="Nairobi city skyline - Africa Growth Advisors' market presence"
             className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"

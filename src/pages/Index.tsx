@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { getWhatsAppLink } from "@/config";
 import { DollarSign, Globe, Trophy, Key, Handshake } from "lucide-react";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const Index = () => {
   const jsonLd = {
@@ -65,11 +66,11 @@ const Index = () => {
                 <Link to="/contact">Book a Consultation</Link>
               </Button>
             </div>
-            <img
+            <OptimizedImage
               src="/lovable-uploads/60c049ca-6d7e-460b-80c6-e25f6af18ce2.png"
               alt="Nairobi skyline representing Kenyan financial market"
-              loading="lazy"
               className="w-full rounded-xl border aspect-[16/9] object-cover"
+              priority={true}
             />
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-muted-foreground">
               <li>• CMA licensing process Kenya</li>
