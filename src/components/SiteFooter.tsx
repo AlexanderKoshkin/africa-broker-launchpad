@@ -15,6 +15,7 @@ export default function SiteFooter() {
           <p className="font-semibold">Quick Links</p>
           <ul className="mt-2 space-y-2 text-sm">
             <li><Link to="/services" className="hover:underline">Services</Link></li>
+            <li><Link to="/blog" className="hover:underline">Blog</Link></li>
             <li><Link to="/process" className="hover:underline">Process</Link></li>
             <li><Link to="/case-studies" className="hover:underline">Case Studies</Link></li>
             <li><Link to="/contact" className="hover:underline">Contact</Link></li>

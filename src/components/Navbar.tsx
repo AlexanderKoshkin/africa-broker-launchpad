@@ -1,5 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const navItems = [
@@ -37,6 +39,33 @@ export default function Navbar() {
               <Link to="/contact">Book a Consultation</Link>
             </Button>
           </div>
+        )}
+        {isMobile && (
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon" aria-label="Open menu">
+                <Menu className="h-5 w-5" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[300px]">
+              <nav className="mt-6 flex flex-col gap-4">
+                {navItems.map((item) => (
+                  <NavLink
+                    key={item.to}
+                    to={item.to}
+                    className={({ isActive }) =>
+                      `text-sm transition-colors ${isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`
+                    }
+                  >
+                    {item.label}
+                  </NavLink>
+                ))}
+                <Button asChild className="mt-2">
+                  <Link to="/contact">Book a Consultation</Link>
+                </Button>
+              </nav>
+            </SheetContent>
+          </Sheet>
         )}
       </nav>
     </header>
