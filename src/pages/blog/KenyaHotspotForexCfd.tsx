@@ -129,7 +129,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96"
+                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=400&fit=crop"
                   alt="Nairobi city street with commuters using phones"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -155,7 +155,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96"
+                  src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?w=800&h=400&fit=crop"
                   alt="Nairobi skyline at midday"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -173,7 +173,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96"
+                  src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&h=400&fit=crop"
                   alt="Great Rift Valley landscape in Kenya"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
@@ -191,7 +191,7 @@ export default function KenyaHotspotForexCfd() {
               
               <div className="mb-6">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96"
+                  src="https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?w=800&h=400&fit=crop"
                   alt="Green hills near Nairobi at sunset"
                   className="w-full h-64 object-cover rounded-lg"
                   width={800}
