@@ -7,7 +7,7 @@ import { BarChart, CartesianGrid, XAxis, YAxis, Bar, Cell } from "recharts";
 
 const PAGE_PATH = "/blog/cma-licensing-kenya-2025-guide";
 const META_TITLE = "CMA Licensing in Kenya – 2025 FX & CFD Broker Guide";
-const META_DESC = "Learn why Kenya’s CMA licensing is attracting FX & CFD brokers in 2025. Market stats, regulation depth, and why early movers win.";
+const META_DESC = "Learn why Kenya's CMA licensing is attracting FX & CFD brokers in 2025. Market stats, regulation depth, and why early movers win.";
 
 const articleJsonLd = {
   "@context": "https://schema.org",
@@ -34,7 +34,7 @@ const faqJsonLd = {
       acceptedAnswer: {
         "@type": "Answer",
         text:
-          "A CMA license authorizes brokers to offer online foreign exchange (FX) and CFD services in Kenya under the Capital Markets Authority’s regulatory framework, including conduct rules, reporting, and capital requirements.",
+          "A CMA license authorizes brokers to offer online foreign exchange (FX) and CFD services in Kenya under the Capital Markets Authority's regulatory framework, including conduct rules, reporting, and capital requirements.",
       },
     },
     {
@@ -109,7 +109,7 @@ export default function CmaKenya2025Guide() {
             CMA Licensing in Kenya: The Complete 2025 Guide for FX & CFD Brokers
           </h1>
           <p className="mt-4 text-muted-foreground max-w-3xl">
-            Kenya’s financial markets are emerging as one of Africa’s most dynamic destinations for FX and CFD brokers — offering a combination of regulatory clarity, strong digital adoption, and an expanding base of retail investors.
+            Kenya's financial markets are emerging as one of Africa's most dynamic destinations for FX and CFD brokers — offering a combination of regulatory clarity, strong digital adoption, and an expanding base of retail investors.
           </p>
         </header>
 
@@ -117,13 +117,13 @@ export default function CmaKenya2025Guide() {
           {/* Intro */}
           <section className="prose prose-neutral dark:prose-invert max-w-none">
             <p>
-              The Capital Markets Authority (CMA), Kenya’s market regulator, has taken a proactive stance toward licensing and oversight. This is not a “rubber stamp” regulator: in recent years, the CMA has issued multiple cease-and-desist orders to unlicensed operators, introduced stricter reporting standards, and reinforced capital requirements. The approach signals a maturing market with credible, enforceable rules — providing licensed brokers with a clear competitive edge.
+              The Capital Markets Authority (CMA), Kenya's market regulator, has taken a proactive stance over the recent past toward licensing and oversight. It is a key area off focus for this modern and sophisticated regulator. It is worth repeating that this is not a "rubber stamp" regulator: in recent years, the CMA has issued multiple cease-and-desist orders to unlicensed operators, introduced stricter reporting standards, and reinforced capital requirements. The approach signals a maturing market with credible, enforceable rules — providing licensed brokers with a clear competitive edge.
             </p>
             <p>
-              The opportunity is significant yet still developing. As of early 2025, there are fewer than 20 fully licensed non-dealing online FX brokers in Kenya — a fraction compared to other global markets with similar population sizes. With over 200,000 active traders, daily FX/CFD trading volumes exceeding $50 million, and a 25% annual growth rate in retail participation, the market is attracting international interest without yet being oversaturated.
+              The market opportunity in Kenya is significant, yet still developing. As of early 2025, there are fewer than 20 fully licensed non-dealing online FX brokers in Kenya — a fraction compared to other global markets with similar population sizes. With over 200,000 active traders, daily FX/CFD trading volumes exceeding $50 million, and a 25% annual growth rate in retail participation, the market is attracting international interest without yet being oversaturated.
             </p>
             <p>
-              Kenya’s digital-first economy is another accelerant. With mobile money penetration above 96% (led by M-Pesa), brokers can integrate local payment systems for seamless deposits and withdrawals, while reaching customers via high-engagement social media channels. This combination of regulatory structure and digital accessibility makes Kenya a uniquely positioned market in 2025.
+              Kenya's digital-first economy is another accelerant. With mobile money penetration above 96% (led by M-Pesa), brokers can integrate local payment systems for seamless deposits and withdrawals, while reaching customers via high-engagement social media channels. This combination of regulatory structure and digital accessibility makes Kenya a uniquely positioned market in 2025.
             </p>
           </section>
 
@@ -131,7 +131,7 @@ export default function CmaKenya2025Guide() {
           <section className="mt-10 md:mt-12">
             <h2 className="text-2xl font-semibold">Market Opportunity Overview</h2>
             <p className="mt-3 text-muted-foreground max-w-3xl">
-              Kenya combines a young, digital-savvy population with high mobile money adoption and growing retail participation in FX and CFDs.
+              Kenya combines a young, digital-savvy population with high mobile money adoption and growing retail participation in FX and CFDs. The financial inclusion in Kenya, boosted by mobile technology, has played a critical role in engaging new traders in the forex space. In addition, the rising literacy rate in Kenya is significantly driving the forex trading market by enhancing financial knowledge and skills amongst the population. As literacy rates increase, we see individuals gaining a better undertanding of CMA regulations and demanding investors protections provided by the local regulator. Non compliance is not an option in this market.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mt-6 items-start">
               <ul className="space-y-2 text-sm md:text-base">
@@ -170,7 +170,7 @@ export default function CmaKenya2025Guide() {
           <section className="mt-12 md:mt-14">
             <h2 className="text-2xl font-semibold">CMA Regulatory Framework Overview</h2>
             <p className="mt-3 text-muted-foreground max-w-3xl">
-              Kenya’s CMA applies a rigorous, principles-based regime for online FX and CFD brokers with active supervision and enforcement.
+              Kenya's CMA applies a rigorous, principles-based regime for online FX and CFD brokers with active supervision and enforcement.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mt-6 items-start">
               <ul className="space-y-2 text-sm md:text-base">
@@ -182,7 +182,7 @@ export default function CmaKenya2025Guide() {
               </ul>
               <div className="space-y-3">
                 <figure className="rounded-lg border p-4 bg-card">
-                  <div aria-label="Timeline showing Kenya CMA’s regulatory milestones and enforcement actions from 2020 to 2025." role="img">
+                  <div aria-label="Timeline showing Kenya CMA's regulatory milestones and enforcement actions from 2020 to 2025." role="img">
                     <ol className="relative pl-6 space-y-4">
                       <span className="absolute left-3 top-2 bottom-2 w-px bg-border" aria-hidden="true" />
                       {timeline.map((e) => (
@@ -201,7 +201,7 @@ export default function CmaKenya2025Guide() {
                     </ol>
                   </div>
                   <figcaption className="mt-2 text-xs text-muted-foreground">
-                    Kenya’s CMA has steadily increased enforcement and regulation since 2020, ensuring only serious, compliant brokers operate.
+                    Kenya's CMA has steadily increased enforcement and regulation since 2020, ensuring only serious, compliant brokers operate.
                   </figcaption>
                 </figure>
               </div>
@@ -226,9 +226,8 @@ export default function CmaKenya2025Guide() {
               </ul>
               <div className="space-y-3">
                 <p className="text-sm md:text-base text-muted-foreground">
-                  Typical timeline: 4–6 months depending on preparedness and regulator review cycles. For a detailed pathway, see our {" "}
-                  <Link to="/services" className="underline underline-offset-4">Services – Core Licensing Package</Link>.
-                </p>
+                   Typical timeline: 4–6 months depending on preparedness and regulator review cycles. For a detailed pathway, please contact us by email and/or phone (see details below).
+                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Button asChild>
                     <Link to="/contact">Get Your CMA License Faster – Talk to a Local Expert</Link>
@@ -237,7 +236,7 @@ export default function CmaKenya2025Guide() {
                     <Link to="/contact">Request a Licensing Roadmap</Link>
                   </Button>
                   <Button variant="outline" asChild>
-                    <Link to="/about">See How We’ve Helped 10+ Brokers Succeed in Kenya</Link>
+                    <Link to="/about">See How We've Helped 10+ Brokers Succeed in Kenya</Link>
                   </Button>
                 </div>
               </div>
@@ -267,7 +266,7 @@ export default function CmaKenya2025Guide() {
             <p className="mt-3 text-sm md:text-base text-muted-foreground">
               Related reading: {" "}
               <Link to="/blog/kenya-digital-economy-mobile-money" className="underline underline-offset-4">
-                Kenya’s Digital Economy & Mobile Money
+                Kenya's Digital Economy & Mobile Money
               </Link>
               {" "} (coming soon)
             </p>
