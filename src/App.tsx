@@ -12,6 +12,7 @@ import Process from "./pages/Process";
 import About from "./pages/About";
 import BlogCmaKenya2025Guide from "./pages/blog/CmaKenya2025Guide";
 import KenyaHotspotForexCfd from "./pages/blog/KenyaHotspotForexCfd";
+import MPesaHiddenTruth from "./pages/blog/MPesaHiddenTruth";
 import BlogIndex from "./pages/BlogIndex";
 
 import Contact from "./pages/Contact";
@@ -112,6 +113,14 @@ const App = () => (
               element={
                 <Layout>
                   <KenyaHotspotForexCfd />
+                </Layout>
+              }
+            />
+            <Route
+              path="/blog/mpesa-hidden-truth"
+              element={
+                <Layout>
+                  <MPesaHiddenTruth />
                 </Layout>
               }
             />

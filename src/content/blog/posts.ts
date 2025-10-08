@@ -9,6 +9,15 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "mpesa-hidden-truth",
+    path: "/blog/mpesa-hidden-truth",
+    title: "M-Pesa: The Hidden Truth Behind Kenya's Financial Revolution",
+    description:
+      "Uncover the disputed origins of M-Pesa, Kenya's revolutionary mobile money system. From alleged theft of intellectual property to surveillance concerns and CBDC implications - the complete untold story.",
+    datePublished: "2025-01-15",
+    image: "/placeholder.svg"
+  },
+  {
     slug: "kenya-hotspot-regulated-forex-cfd",
     path: "/blog/kenya-hotspot-regulated-forex-cfd",
     title: "Why Kenya Is Africa's Next Hotspot for Regulated Forex & CFD Trading",
