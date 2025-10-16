@@ -8,7 +8,7 @@ type SEOProps = {
   jsonLd?: Record<string, any> | Record<string, any>[];
 };
 
-const BASE_URL = "https://www.africagrowthadvisors.com"; // Replace on deploy
+const BASE_URL = "https://aga-licensing-kenya.lovable.app";
 
 export default function SEO({ title, description, path = "/", image, jsonLd }: SEOProps) {
   const url = `${BASE_URL}${path}`;
