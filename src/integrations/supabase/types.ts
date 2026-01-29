@@ -14,7 +14,33 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      "AGA Contacts": {
+        Row: {
+          company: string | null
+          created_at: string
+          email: string | null
+          full_name: string
+          message: string | null
+          phone_number: number | null
+        }
+        Insert: {
+          company?: string | null
+          created_at?: string
+          email?: string | null
+          full_name: string
+          message?: string | null
+          phone_number?: number | null
+        }
+        Update: {
+          company?: string | null
+          created_at?: string
+          email?: string | null
+          full_name?: string
+          message?: string | null
+          phone_number?: number | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
