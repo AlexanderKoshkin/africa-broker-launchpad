@@ -55,7 +55,7 @@ export default function LeadCaptureForm({ compact = false }: { compact?: boolean
 
       // Basic conversion tracking hook
       (window as any).dataLayer = (window as any).dataLayer || [];
-      (window as any).dataLayer.push({ event: "lead_form_submit", form: data });
+      (window as any).dataLayer.push({ event: "lead_form_submit", form_type: "contact" });
 
       toast({ 
         title: "Thank you — our team will contact you within 24 hours.", 
