@@ -14,7 +14,7 @@ export const posts: BlogPost[] = [
     title: "The Virtual Asset Service Providers (VASP) Act, 2025: A New Era for Digital Assets in Kenya",
     description:
       "Kenya's Virtual Asset Service Providers Act 2025 formally regulates crypto. Learn about CBK & CMA responsibilities, four license categories, and the Nov 2026 compliance deadline.",
-    datePublished: "2025-11-15",
+    datePublished: "2026-03-11",
     image: "/placeholder.svg"
   },
   {

@@ -40,8 +40,8 @@ const articleJsonLd = {
     "@type": "WebPage",
     "@id": `https://www.africagrowthadvisors.com${PAGE_PATH}`,
   },
-  datePublished: "2025-11-15",
-  dateModified: "2025-11-15",
+  datePublished: "2026-03-11",
+  dateModified: "2026-03-11",
 };
 
 const keyTakeaways = [
@@ -137,7 +137,7 @@ export default function VaspActKenya2025() {
         <header className="mb-10">
           <div className="flex flex-wrap items-center gap-3 mb-4">
             <Badge variant="secondary">Regulation</Badge>
-            <span className="text-sm text-muted-foreground">November 2025</span>
+            <span className="text-sm text-muted-foreground">March 11, 2026</span>
             <span className="text-sm text-muted-foreground flex items-center gap-1">
               <Clock className="h-3.5 w-3.5" />
               ~3 min read
