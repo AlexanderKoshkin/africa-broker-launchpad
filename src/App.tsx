@@ -125,6 +125,14 @@ const App = () => (
                 </Layout>
               }
             />
+            <Route
+              path="/blog/vasp-act-kenya-2025"
+              element={
+                <Layout>
+                  <VaspActKenya2025 />
+                </Layout>
+              }
+            />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
