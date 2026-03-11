@@ -13,6 +13,7 @@ import About from "./pages/About";
 import BlogCmaKenya2025Guide from "./pages/blog/CmaKenya2025Guide";
 import KenyaHotspotForexCfd from "./pages/blog/KenyaHotspotForexCfd";
 import MPesaHiddenTruth from "./pages/blog/MPesaHiddenTruth";
+import VaspActKenya2025 from "./pages/blog/VaspActKenya2025";
 import BlogIndex from "./pages/BlogIndex";
 
 import Contact from "./pages/Contact";
@@ -121,6 +122,14 @@ const App = () => (
               element={
                 <Layout>
                   <MPesaHiddenTruth />
+                </Layout>
+              }
+            />
+            <Route
+              path="/blog/vasp-act-kenya-2025"
+              element={
+                <Layout>
+                  <VaspActKenya2025 />
                 </Layout>
               }
             />
