@@ -40,8 +40,8 @@ const articleJsonLd = {
     "@type": "WebPage",
     "@id": `https://www.africagrowthadvisors.com${PAGE_PATH}`,
   },
-  datePublished: "2025-11-15",
-  dateModified: "2025-11-15",
+  datePublished: "2026-03-11",
+  dateModified: "2026-03-11",
 };
 
 const keyTakeaways = [
