@@ -232,6 +232,8 @@ const Index = () => {
         </div>
       </section>
 
+      <BlogPreview />
+
       <section className="border-t">
         <div className="container py-12 text-center space-y-4">
           <h2 className="text-2xl font-semibold">Ready to enter Kenya?</h2>
