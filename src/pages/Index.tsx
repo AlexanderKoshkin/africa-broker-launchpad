@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { getWhatsAppLink } from "@/config";
 import { DollarSign, Globe, Trophy, Key, Handshake } from "lucide-react";
 import OptimizedImage from "@/components/OptimizedImage";
+import BlogPreview from "@/components/BlogPreview";
 
 const Index = () => {
   const jsonLd = {
