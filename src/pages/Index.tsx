@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { getWhatsAppLink } from "@/config";
 import { DollarSign, Globe, Trophy, Key, Handshake } from "lucide-react";
 import OptimizedImage from "@/components/OptimizedImage";
+import BlogPreview from "@/components/BlogPreview";
 
 const Index = () => {
   const jsonLd = {
@@ -230,6 +231,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <BlogPreview />
 
       <section className="border-t">
         <div className="container py-12 text-center space-y-4">
