@@ -104,6 +104,8 @@ export default function About() {
           </div>
         </section>
 
+        <FoundersSection />
+
         <section className="mt-12 text-center">
           <h2 className="text-2xl font-semibold mb-4">Ready to Work with Our Team?</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
