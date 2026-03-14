@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import OptimizedImage from "@/components/OptimizedImage";
+import FoundersSection from "@/components/FoundersSection";
 
 export default function About() {
   return (
@@ -102,6 +103,8 @@ export default function About() {
             </div>
           </div>
         </section>
+
+        <FoundersSection />
 
         <section className="mt-12 text-center">
           <h2 className="text-2xl font-semibold mb-4">Ready to Work with Our Team?</h2>
