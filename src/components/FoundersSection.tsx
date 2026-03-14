@@ -64,6 +64,7 @@ export default function FoundersSection() {
             name="Keith Mukami"
             role="Legal Architect"
             initials="KM"
+            imageSrc="/lovable-uploads/keith-mukami.jpeg"
             linkedIn="https://www.linkedin.com/in/keithmukami/"
             bio="Keith brings over two decades of senior-level experience across international financial law, regulatory frameworks, and cross-border commercial structures. His academic grounding — an LLB from the University of Reading and an LLM from the University of Cambridge — underpins a career practised at the highest levels of global finance. Admitted as a solicitor in England and Wales since 1997, he has held senior roles at Norton Rose Fulbright and CMS South Africa, led the Africa banking and regulatory practice, and worked in-house at Merrill Lynch in the City of London. As an admitted attorney in Tanzania, he has been instrumental in facilitating foreign direct investment and strengthening legal infrastructure across East Africa."
             closingLine="Legal certainty is not a constraint — it is the foundation on which sustainable financial ecosystems are built."
