@@ -73,6 +73,7 @@ export default function FoundersSection() {
             name="Alexander Koshkin"
             role="Digital Frontier Strategist"
             initials="AK"
+            imageSrc="/lovable-uploads/alexander-koshkin.jpeg"
             linkedIn="https://www.linkedin.com/in/alexanderkoshkin/"
             bio="Alexander has spent over 15 years at the intersection of product strategy, fintech, and emerging market growth. Since 2009, his focus has been singular: making complex financial services accessible, fast, and scalable. His career includes key roles at Qiwi and Alpari — where he served as Head of Affiliates for one of the world's largest FX brokers. At Brokstock, as Product Owner, he built a retail investment platform from the ground up, achieving a 9-second client verification time without compromising compliance standards, and drove an 80% increase in user activation through behavioural design alone."
             closingLine="Regulation and user experience are not in opposition. Executed well, one reinforces the other."
