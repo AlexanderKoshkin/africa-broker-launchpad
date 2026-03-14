@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import OptimizedImage from "@/components/OptimizedImage";
+import FoundersSection from "@/components/FoundersSection";
 
 export default function About() {
   return (
