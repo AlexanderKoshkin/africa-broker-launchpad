@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import OptimizedImage from "@/components/OptimizedImage";
+import Disclaimer from "@/components/blog/Disclaimer";
 
 const META_TITLE = "Why Kenya Is a Hotspot for Regulated Forex & CFD Trading";
 const META_DESC = "Kenya's CMA has tightened oversight, while a booming digital economy creates real demand. See why licensed brokers are eyeing Kenya—and how to enter compliantly.";
