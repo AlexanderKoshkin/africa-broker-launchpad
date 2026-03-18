@@ -284,6 +284,7 @@ export default function KenyaHotspotForexCfd() {
               <Link to="/contact">Book a 20-minute consult</Link>
             </Button>
           </div>
+          <Disclaimer />
         </article>
       </main>
     </>

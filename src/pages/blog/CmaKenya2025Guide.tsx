@@ -291,6 +291,7 @@ export default function CmaKenya2025Guide() {
               <LeadCaptureForm />
             </div>
           </section>
+          <Disclaimer />
         </main>
       </article>
     </>

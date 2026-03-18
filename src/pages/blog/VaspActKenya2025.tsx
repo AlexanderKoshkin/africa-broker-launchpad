@@ -335,6 +335,8 @@ export default function VaspActKenya2025() {
             {copied ? "Copied!" : "Copy link"}
           </Button>
         </footer>
+
+        <Disclaimer />
       </article>
     </>
   );

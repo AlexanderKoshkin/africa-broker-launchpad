@@ -218,6 +218,7 @@ export default function MPesaHiddenTruth() {
               <li>[8] Who invented M-Pesa? Here's everything you need to know - Tuko.co.ke. Available at: <a href="https://www.tuko.co.ke/280391-who-invented-mpesa.html" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.tuko.co.ke/280391-who-invented-mpesa.html</a></li>
             </ol>
           </section>
+          <Disclaimer />
         </article>
       </main>
     </>
