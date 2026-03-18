@@ -21,6 +21,7 @@ import {
   ChevronLeft,
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import Disclaimer from "@/components/blog/Disclaimer";
 
 const PAGE_PATH = "/blog/vasp-act-kenya-2025";
 const META_TITLE =
@@ -334,6 +335,8 @@ export default function VaspActKenya2025() {
             {copied ? "Copied!" : "Copy link"}
           </Button>
         </footer>
+
+        <Disclaimer />
       </article>
     </>
   );

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
+import Disclaimer from "@/components/blog/Disclaimer";
 import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from "@/components/ui/chart";
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar, Cell } from "recharts";
 
@@ -290,6 +291,7 @@ export default function CmaKenya2025Guide() {
               <LeadCaptureForm />
             </div>
           </section>
+          <Disclaimer />
         </main>
       </article>
     </>
