@@ -9,6 +9,15 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "cma-licensing-requirements-2025",
+    path: "/blog/cma-licensing-requirements-2025",
+    title: "Modernizing the CMA: The 2025 Licensing Requirements",
+    description:
+      "Kenya's CMA replaces legacy 2002 rules with the Capital Markets (Licensing Requirements) (General) Regulations, 2025. Learn about Robo-Advisory permits and the Fit and Proper test.",
+    datePublished: "2026-03-18",
+    image: "/placeholder.svg"
+  },
+  {
     slug: "vasp-act-kenya-2025",
     path: "/blog/vasp-act-kenya-2025",
     title: "The Virtual Asset Service Providers (VASP) Act, 2025: A New Era for Digital Assets in Kenya",
