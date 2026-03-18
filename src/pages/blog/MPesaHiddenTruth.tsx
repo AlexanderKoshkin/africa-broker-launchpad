@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
+import Disclaimer from "@/components/blog/Disclaimer";
 
 const META_TITLE = "M-Pesa: The Hidden Truth Behind Kenya's Financial Revolution";
 const META_DESC = "Uncover the disputed origins of M-Pesa, Kenya's revolutionary mobile money system. From alleged theft of intellectual property to surveillance concerns and CBDC implications - the complete untold story.";
