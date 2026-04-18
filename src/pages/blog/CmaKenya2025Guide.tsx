@@ -101,7 +101,7 @@ export default function CmaKenya2025Guide() {
       <SEO
         title={META_TITLE}
         description={META_DESC}
-        path={PAGE_PATH}
+        canonicalUrl={CANONICAL_URL}
         jsonLd={[articleJsonLd, faqJsonLd]}
       />
 

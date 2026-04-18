@@ -80,7 +80,7 @@ export default function CmaLicensing2025() {
       <SEO
         title={META_TITLE}
         description={META_DESC}
-        path={PAGE_PATH}
+        canonicalUrl={CANONICAL_URL}
         jsonLd={articleJsonLd}
       />
 

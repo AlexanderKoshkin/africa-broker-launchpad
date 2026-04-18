@@ -31,7 +31,7 @@ export default function MPesaHiddenTruth() {
       <SEO 
         title={META_TITLE} 
         description={META_DESC} 
-        path="/blog/mpesa-hidden-truth"
+        canonicalUrl={CANONICAL_URL}
         jsonLd={articleLd}
       />
       <main className="container py-10 md:py-14">
