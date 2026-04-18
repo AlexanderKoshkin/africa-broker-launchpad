@@ -7,8 +7,9 @@ import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLe
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar, Cell } from "recharts";
 
 const PAGE_PATH = "/blog/cma-licensing-kenya-2025-guide";
-const META_TITLE = "CMA Licensing in Kenya – 2025 FX & CFD Broker Guide";
-const META_DESC = "Learn why Kenya's CMA licensing is attracting FX & CFD brokers in 2025. Market stats, regulation depth, and why early movers win.";
+const META_TITLE = "Complete Guide to CMA Licensing in Kenya 2025 | AGA";
+const META_DESC = "Step-by-step guide to obtaining a CMA licence in Kenya. Covers licence categories, capital requirements, fit-and-proper criteria, and application timelines.";
+const CANONICAL_URL = "https://aga-licensing-kenya.lovable.app/blog/cma-licensing-kenya-2025-guide";
 
 const articleJsonLd = {
   "@context": "https://schema.org",
@@ -100,7 +101,7 @@ export default function CmaKenya2025Guide() {
       <SEO
         title={META_TITLE}
         description={META_DESC}
-        path={PAGE_PATH}
+        canonicalUrl={CANONICAL_URL}
         jsonLd={[articleJsonLd, faqJsonLd]}
       />
 

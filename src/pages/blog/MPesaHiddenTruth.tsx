@@ -2,8 +2,9 @@ import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import Disclaimer from "@/components/blog/Disclaimer";
 
-const META_TITLE = "M-Pesa: The Hidden Truth Behind Kenya's Financial Revolution";
-const META_DESC = "Uncover the disputed origins of M-Pesa, Kenya's revolutionary mobile money system. From alleged theft of intellectual property to surveillance concerns and CBDC implications - the complete untold story.";
+const META_TITLE = "The Hidden Truth About M-Pesa: What Businesses Must Understand | AGA";
+const META_DESC = "Beyond the headline numbers — what businesses entering Kenya must genuinely understand about M-Pesa's regulatory, commercial, and operational realities.";
+const CANONICAL_URL = "https://aga-licensing-kenya.lovable.app/blog/mpesa-hidden-truth";
 const KEYWORDS = "M-Pesa, mobile money, Kenya fintech, Nyagaka Anyona Ouko, Safaricom, digital currency, financial surveillance, CBDC, mobile payments Africa";
 
 export default function MPesaHiddenTruth() {
@@ -30,7 +31,7 @@ export default function MPesaHiddenTruth() {
       <SEO 
         title={META_TITLE} 
         description={META_DESC} 
-        path="/blog/mpesa-hidden-truth"
+        canonicalUrl={CANONICAL_URL}
         jsonLd={articleLd}
       />
       <main className="container py-10 md:py-14">
