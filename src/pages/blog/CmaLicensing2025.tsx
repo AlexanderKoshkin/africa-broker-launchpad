@@ -21,9 +21,11 @@ import Disclaimer from "@/components/blog/Disclaimer";
 
 const PAGE_PATH = "/blog/cma-licensing-requirements-2025";
 const META_TITLE =
-  "Modernizing the CMA: The 2025 Licensing Requirements | AGA";
+  "CMA Licensing Requirements 2025: What You Need to Know | AGA";
 const META_DESC =
-  "Kenya's CMA replaces legacy 2002 rules with the Capital Markets (Licensing Requirements) (General) Regulations, 2025. Learn about Robo-Advisory permits, Fit and Proper tests, and the new compliance landscape.";
+  "A practical guide to CMA licensing requirements in Kenya for 2025. Understand the process, documentation, and timelines for capital markets authorisation.";
+const CANONICAL_URL =
+  "https://aga-licensing-kenya.lovable.app/blog/cma-licensing-requirements-2025";
 
 const articleJsonLd = {
   "@context": "https://schema.org",

@@ -2,8 +2,8 @@ import SEO from "@/components/SEO";
 import PostCard from "@/components/blog/PostCard";
 import { getAllPosts } from "@/content/blog/posts";
 
-const META_TITLE = "Kenya FX/CFD Blog – CMA Licensing Insights | AGA";
-const META_DESC = "Expert articles on CMA licensing, Kenya’s FX/CFD market, and growth strategies for brokers.";
+const META_TITLE = "Regulatory Insights & Kenya Market Intelligence | AGA Blog";
+const META_DESC = "Practical analysis of Kenya's financial regulation, licensing updates, and market entry intelligence for businesses entering the Kenyan market.";
 
 export default function BlogIndex() {
   const posts = getAllPosts();
@@ -29,7 +29,12 @@ export default function BlogIndex() {
 
   return (
     <>
-      <SEO title={META_TITLE} description={META_DESC} path="/blog" jsonLd={[blogLd, listLd]} />
+      <SEO
+        title={META_TITLE}
+        description={META_DESC}
+        canonicalUrl="https://aga-licensing-kenya.lovable.app/blog"
+        jsonLd={[blogLd, listLd]}
+      />
       <main className="container py-10 md:py-14">
         <header className="mb-6 md:mb-10">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Blog: Kenya FX/CFD Market & CMA Licensing Insights</h1>

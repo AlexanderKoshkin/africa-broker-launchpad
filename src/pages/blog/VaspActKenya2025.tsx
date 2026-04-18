@@ -25,9 +25,11 @@ import Disclaimer from "@/components/blog/Disclaimer";
 
 const PAGE_PATH = "/blog/vasp-act-kenya-2025";
 const META_TITLE =
-  "The VASP Act 2025: A New Era for Digital Assets in Kenya | AGA";
+  "Kenya's VASP Act 2025: Licensing Framework for Virtual Asset Providers | AGA";
 const META_DESC =
-  "Kenya's Virtual Asset Service Providers Act 2025 formally regulates crypto. Learn about CBK & CMA responsibilities, four license categories, and the Nov 2026 compliance deadline.";
+  "Breaking down Kenya's Virtual Asset Service Providers Act 2025. What it means for crypto businesses, exchanges, and fintech firms planning to operate in Kenya.";
+const CANONICAL_URL =
+  "https://aga-licensing-kenya.lovable.app/blog/vasp-act-kenya-2025";
 
 const articleJsonLd = {
   "@context": "https://schema.org",

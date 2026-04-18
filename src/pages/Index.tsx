@@ -43,10 +43,10 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="CMA Kenya Brokerage Licence & Market Entry | AGA"
-        description="Secure your CMA Kenya brokerage licence fast. Africa Growth Advisors delivers turnkey licensing & market entry solutions for FX & CFD brokers."
-        path="/"
-        image="/lovable-uploads/60c049ca-6d7e-460b-80c6-e25f6af18ce2.png"
+        title="Kenya Market Entry & Financial Licensing Advisory | AGA"
+        description="AGA helps businesses navigate Kenya's regulatory landscape. Expert advisory on CMA licensing, CBK compliance, AML registration, and market entry strategy."
+        canonicalUrl="https://aga-licensing-kenya.lovable.app/"
+        ogImage="/lovable-uploads/60c049ca-6d7e-460b-80c6-e25f6af18ce2.png"
         jsonLd={[jsonLd, faqsLd]}
       />
       <section className="relative">
