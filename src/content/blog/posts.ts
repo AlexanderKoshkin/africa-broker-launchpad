@@ -9,6 +9,15 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "vasp-regulations-2026-kenya",
+    path: "/blog/vasp-regulations-2026-kenya",
+    title: "VASP Regulations 2026: What Kenya's Draft Rules Mean for Your Business",
+    description:
+      "Kenya's draft VASP Regulations 2026 move from framework to enforcement detail. A practical breakdown of capital requirements, ownership rules, AML obligations, and licensing timelines for businesses entering the market.",
+    datePublished: "2026-04-18",
+    image: "/placeholder.svg"
+  },
+  {
     slug: "cma-licensing-requirements-2025",
     path: "/blog/cma-licensing-requirements-2025",
     title: "Modernizing the CMA: The 2025 Licensing Requirements",
