@@ -16,6 +16,7 @@ import MPesaHiddenTruth from "./pages/blog/MPesaHiddenTruth";
 import VaspActKenya2025 from "./pages/blog/VaspActKenya2025";
 import CmaLicensing2025 from "./pages/blog/CmaLicensing2025";
 import VaspRegulations2026Kenya from "./pages/blog/VaspRegulations2026Kenya";
+import WhyGlobalBrokersChoosingKenya from "./pages/blog/WhyGlobalBrokersChoosingKenya";
 import BlogIndex from "./pages/BlogIndex";
 
 import Contact from "./pages/Contact";
@@ -148,6 +149,14 @@ const App = () => (
               element={
                 <Layout>
                   <VaspRegulations2026Kenya />
+                </Layout>
+              }
+            />
+            <Route
+              path="/blog/why-global-brokers-are-choosing-kenya-cma-licensing-wave"
+              element={
+                <Layout>
+                  <WhyGlobalBrokersChoosingKenya />
                 </Layout>
               }
             />
