@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Disclaimer from "@/components/blog/Disclaimer";
+import BookConsultationCTA from "@/components/blog/BookConsultationCTA";
 
 const PAGE_PATH = "/blog/why-global-brokers-are-choosing-kenya-cma-licensing-wave";
 const META_TITLE = "Why Global Brokers Are Choosing Kenya | CMA Licensing | AGA";
@@ -371,6 +372,7 @@ export default function WhyGlobalBrokersChoosingKenya() {
           </Button>
         </footer>
 
+        <BookConsultationCTA />
         <Disclaimer />
       </article>
     </>

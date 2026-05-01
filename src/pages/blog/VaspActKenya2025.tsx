@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Disclaimer from "@/components/blog/Disclaimer";
+import BookConsultationCTA from "@/components/blog/BookConsultationCTA";
 
 const PAGE_PATH = "/blog/vasp-act-kenya-2025";
 const META_TITLE =
@@ -338,6 +339,7 @@ export default function VaspActKenya2025() {
           </Button>
         </footer>
 
+        <BookConsultationCTA />
         <Disclaimer />
       </article>
     </>
