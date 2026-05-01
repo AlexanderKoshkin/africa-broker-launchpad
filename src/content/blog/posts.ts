@@ -9,6 +9,16 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "why-global-brokers-are-choosing-kenya-cma-licensing-wave",
+    path: "/blog/why-global-brokers-are-choosing-kenya-cma-licensing-wave",
+    title:
+      "Why the World's Top Brokers Are Choosing Kenya — and What It Means for Firms Still on the Fence",
+    description:
+      "IC Markets, XM, Capital.com and seven other global brokers have obtained CMA licences in Kenya. Here is what they saw in the market — and what firms still assessing entry need to know about the 2025 licensing framework.",
+    datePublished: "2026-04-29",
+    image: "/placeholder.svg"
+  },
+  {
     slug: "vasp-regulations-2026-kenya",
     path: "/blog/vasp-regulations-2026-kenya",
     title: "VASP Regulations 2026: What Kenya's Draft Rules Mean for Your Business",
