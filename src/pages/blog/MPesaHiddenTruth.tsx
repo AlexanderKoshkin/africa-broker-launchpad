@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import Disclaimer from "@/components/blog/Disclaimer";
+import BookConsultationCTA from "@/components/blog/BookConsultationCTA";
 
 const META_TITLE = "The Hidden Truth About M-Pesa: What Businesses Must Understand | AGA";
 const META_DESC = "Beyond the headline numbers — what businesses entering Kenya must genuinely understand about M-Pesa's regulatory, commercial, and operational realities.";
@@ -219,7 +220,8 @@ export default function MPesaHiddenTruth() {
               <li>[8] Who invented M-Pesa? Here's everything you need to know - Tuko.co.ke. Available at: <a href="https://www.tuko.co.ke/280391-who-invented-mpesa.html" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.tuko.co.ke/280391-who-invented-mpesa.html</a></li>
             </ol>
           </section>
-          <Disclaimer />
+          <BookConsultationCTA />
+        <Disclaimer />
         </article>
       </main>
     </>

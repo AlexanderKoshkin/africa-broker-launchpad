@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Disclaimer from "@/components/blog/Disclaimer";
+import BookConsultationCTA from "@/components/blog/BookConsultationCTA";
 
 const PAGE_PATH = "/blog/cma-licensing-requirements-2025";
 const META_TITLE =
@@ -263,6 +264,7 @@ export default function CmaLicensing2025() {
           </Button>
         </footer>
 
+        <BookConsultationCTA />
         <Disclaimer />
       </article>
     </>
