@@ -9,6 +9,16 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "kenya-finance-bill-2026-digital-payments-tax-financial-firms",
+    path: "/blog/kenya-finance-bill-2026-digital-payments-tax-financial-firms",
+    title:
+      "Kenya's Finance Bill 2026: Three Tax Proposals Every Financial Services Firm Needs to Understand",
+    description:
+      "Kenya's Finance Bill 2026 proposes VAT on payment processing, withholding tax on card fees, and a 20% royalty tax on non-resident software vendors. Three provisions every financial services firm operating in Kenya needs to understand before the 25 May parliamentary deadline.",
+    datePublished: "2026-05-13",
+    image: "/placeholder.svg"
+  },
+  {
     slug: "why-global-brokers-are-choosing-kenya-cma-licensing-wave",
     path: "/blog/why-global-brokers-are-choosing-kenya-cma-licensing-wave",
     title:

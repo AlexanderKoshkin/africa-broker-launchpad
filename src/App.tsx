@@ -17,6 +17,7 @@ import VaspActKenya2025 from "./pages/blog/VaspActKenya2025";
 import CmaLicensing2025 from "./pages/blog/CmaLicensing2025";
 import VaspRegulations2026Kenya from "./pages/blog/VaspRegulations2026Kenya";
 import WhyGlobalBrokersChoosingKenya from "./pages/blog/WhyGlobalBrokersChoosingKenya";
+import KenyaFinanceBill2026 from "./pages/blog/KenyaFinanceBill2026";
 import BlogIndex from "./pages/BlogIndex";
 
 import Contact from "./pages/Contact";
@@ -157,6 +158,14 @@ const App = () => (
               element={
                 <Layout>
                   <WhyGlobalBrokersChoosingKenya />
+                </Layout>
+              }
+            />
+            <Route
+              path="/blog/kenya-finance-bill-2026-digital-payments-tax-financial-firms"
+              element={
+                <Layout>
+                  <KenyaFinanceBill2026 />
                 </Layout>
               }
             />
