@@ -11,7 +11,7 @@ type SEOProps = {
   jsonLd?: Record<string, any> | Record<string, any>[];
 };
 
-const BASE_URL = "https://aga-licensing-kenya.lovable.app";
+const BASE_URL = "https://aga-licensing.com";
 
 export default function SEO({
   title,
@@ -23,7 +23,16 @@ export default function SEO({
   ogType = "website",
   jsonLd,
 }: SEOProps) {
-  const url = canonicalUrl ?? `${BASE_URL}${path}`;
+  // Always canonicalize to the new domain, even if a legacy full URL is passed in.
+  let canonicalPath = path;
+  if (canonicalUrl) {
+    try {
+      canonicalPath = new URL(canonicalUrl).pathname || "/";
+    } catch {
+      canonicalPath = canonicalUrl.startsWith("/") ? canonicalUrl : `/${canonicalUrl}`;
+    }
+  }
+  const url = `${BASE_URL}${canonicalPath}`;
   const socialImage = ogImage ?? image;
   const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
